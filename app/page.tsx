@@ -5,6 +5,7 @@ import HowItWorks from './components/HowItWorks';
 import TourPackages from './components/TourPackages';
 import Footer from './components/Footer';
 import Blog from './components/Blog';
+import PopupAd from './components/PopupAd';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <TourPackages />
       <Blog />
       <Footer />
+      <PopupAd />
     </main>
   );
 }
